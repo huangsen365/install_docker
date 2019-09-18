@@ -12,3 +12,10 @@ cd /root/data1
 unzip install_docker.zip
 
 cd /root/data1/install_docker-master
+
+sh ./step1_Uninstall_old_versions.sh
+sh ./step2_SET_UP_THE_REPOSITORY_part1.sh
+sh ./step2_SET_UP_THE_REPOSITORY_part2.sh
+sh ./step3_INSTALL_DOCKER_CE.sh
+sh ./step4_START_ENABLED_DOCKER.sh
+sh ./step5_HELLOW_WORLD.sh
