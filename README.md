@@ -10,3 +10,5 @@ wget https://github.com/huangsen365/install_docker/archive/master.zip -O /root/d
 cd /root/data1
 
 unzip install_docker.zip
+
+cd /root/data1/install_docker-master
